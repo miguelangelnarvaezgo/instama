@@ -1,0 +1,515 @@
+@use "globals" as *;
+
+/*-------MAIN-------*/
+
+$margin-bottom-1: 44px;
+
+main {
+
+	@include gridLayout(
+		$display: grid,
+		$cols: repeat(3, 1fr),
+		$rows: inherit,
+		$col-gap: 30px,
+		$row-gap: 0px,
+		$col-start: inherit,
+		$col-end: inherit);
+
+	max-width: 975px;
+	margin: 0 auto;
+	margin-top: 54px;
+	padding: 30px 20px 0;
+
+	/*-header-*/
+
+	header {
+
+		@include gridLayout(
+			$display: grid,
+			$cols: repeat(3, 1fr),
+			$rows: inherit,
+			$col-gap: 30px,
+			$row-gap: 20px,
+			$col-start: 1,
+			$col-end: 4);
+
+		margin-bottom: $margin-bottom-1;
+
+		#photo {
+			@include flex-just-align(
+				$horizontal: center,
+				$vertical: inherit);
+
+			@include gridRow ($start: 1, $end: 4);
+
+			z-index: -1;
+
+			width: 100%;
+			height: 100%;
+
+			$width-avatar: 160px;
+			$height-avatar: 160px;
+
+			#border{
+				@include flex-just-align(
+					$horizontal: center,
+					$vertical: center);
+
+				box-sizing: content-box;
+				position: relative;
+				top: -8px;
+				left: -0px;
+
+				border-radius: 100px;
+				border: solid 3px transparent;
+				background: linear-gradient(45deg,
+						rgba(255,221,132,1) 0%,
+						rgba(255,169,21,1) 20%,
+						rgba(241,34,77,1) 50%,
+						rgba(176,57,219,1) 75%,
+						rgba(32,75,255,1) 100%);
+
+				background-repeat: no-repeat;
+				background-origin: border-box;
+
+				width: $width-avatar;
+				height: $height-avatar;
+
+				#outline {
+					@include flex-just-align(
+						$horizontal: center,
+						$vertical: center);
+
+					border-radius: 100px;
+					background-color: $soft-grey;
+					width: $width-avatar;
+					height: $height-avatar;
+
+					#avatar {
+						@include flex-just-align(
+							$horizontal: center,
+							$vertical: center);
+
+						overflow: hidden;
+
+						border-radius: 100px;
+						border: solid 1px $medium-grey;
+						background-color: white;
+
+						width: $width-avatar - 10px;
+						height: $height-avatar - 10px;
+
+						img {
+							width: 100%;
+						}
+					}
+				}
+			}
+		}
+
+		#user{
+			@include gridLayout(
+				$display: flex,
+				$cols: inherit,
+				$rows: inherit,
+				$col-gap: inherit,
+				$row-gap: inherit,
+				$col-start: 2,
+				$col-end: 4);
+
+			height: 44px;
+
+			#nombre {
+				@include selectFont("H2", $black);
+				margin-top: 8px;
+				margin-right: 14px;
+			}
+
+			#user-buttons {
+				display: flex;
+				flex-direction: row;
+				align-self: center;
+
+				button {
+					margin: 2px 0;
+					margin-left: 7px;
+				}
+				#seguir {
+					padding-right: 25px;
+					padding-left: 25px;
+					img {
+						width: 22px;
+						}
+				}
+				#sugerencias {
+
+					img {
+						width: 10px;
+					}
+				}
+			}
+		}
+
+		#share-info{
+			@include gridLayout(
+				$display: flex,
+				$cols: inherit,
+				$rows: inherit,
+				$col-gap: inherit,
+				$row-gap: inherit,
+				$col-start: 2,
+				$col-end: 4);
+
+			.share-info-item{
+				margin-right: 44px;
+
+				.share-num {
+					font-weight: 500;
+				}
+			}
+		}
+
+		#descripcion{
+
+			@include gridLayout(
+				$display: flex,
+				$cols: inherit,
+				$rows: inherit,
+				$col-gap: inherit,
+				$row-gap: inherit,
+				$col-start: 2,
+				$col-end: 4);
+			flex-direction: column;
+
+			$elems: ("#nombreCompleto": "H1", "#historia": "p", ".link": "link");
+
+			@each $elem, $st in $elems {
+				#{$elem} {
+					@include selectFont(#{$st}, $black);
+				}
+			}
+
+			#lesigue{
+				span {
+					color: $black;
+					font-weight: 500;
+				}
+				@include selectFont("endnote", $dark-grey);
+				@include gridLayout(
+					$display: inherit,
+					$cols: inherit,
+					$rows: inherit,
+					$col-gap: inherit,
+					$row-gap: inherit,
+					$col-start: 1,
+					$col-end: 4);
+
+				margin-top: 14px;
+			}
+		}
+	}
+
+	/*-Stories-*/
+
+	#stories {
+		@include gridLayout(
+			$display: flex,
+			$cols: inherit,
+			$rows: inherit,
+			$col-gap: inherit,
+			$row-gap: inherit,
+			$col-start: 1,
+			$col-end: 4);
+
+		padding-left: 24px;
+		padding-right: 24px;
+		margin-bottom: $margin-bottom-1;
+
+		.stories {
+			box-sizing: border-box;
+			width: 125px;
+			min-width: 125px;
+			height: 130px;
+			padding: 4px 20px;
+			margin-right: 7px;
+
+			.sto-border {
+				@include flex-just-align(
+					$horizontal: center,
+					$vertical: center);
+				box-sizing: border-box;
+				border: solid 1px $medium-grey;
+				border-radius: 50px;
+
+				.sto-img {
+					box-sizing: border-box;
+					border: solid 3px transparent;
+					width: 100%;
+					border-radius: 50px;
+
+				}
+			}
+			.sto-title {
+				display: block;
+				width: 100%;
+				padding-top: 12px;
+				text-align: center;
+			}
+
+		}
+	}
+
+	/*-aside-*/
+
+	form {
+		@include gridLayout(
+			$display: flex,
+			$cols: inherit,
+			$rows: inherit,
+			$col-gap: inherit,
+			$row-gap: inherit,
+			$col-start: 1,
+			$col-end: 4);
+
+		flex-direction: row;
+		justify-content: center;
+		align-self: center;
+		border-top: solid 1px $medium-grey;
+		height: 53px;
+
+		input {
+			display: none;
+		}
+
+		label {
+			display: block;
+			text-decoration: none;
+			margin-top: -1px;
+
+			@include flex-just-align(
+				$horizontal: center,
+				$vertical: center);
+			@include selectFont("menuitem", $dark-grey);
+
+			text-align: center;
+			margin-right:60px;
+			height: 53px;
+			cursor: pointer;
+
+			svg {
+				margin-top: -2px;
+				fill: $dark-grey;
+			}
+			span {
+				display: block;
+				margin-left: 6px;
+			}
+
+			&:active {
+				@include selectFont("menuitem", $medium-grey);
+
+				.aside-label-icon {
+					margin-top: -2px;
+					fill: $medium-grey;
+				}
+			}
+		}
+
+		label:last-child {
+			margin-right: 0;
+		}
+
+		$sections: publicaciones, igtv, etiquetadas;
+
+		@each $section in $sections {
+			#input-#{$section}:checked ~ #label-#{$section} {
+				height: 52px;
+				margin-top: -1px;
+				border-top: solid 1px $black;
+				color: $black;
+				svg {
+					fill: $black;
+				}
+			}
+		}
+	}
+
+	#share-info-mv {
+		display: none;
+	}
+
+	#content-container {
+		@include gridLayout(
+			$display: inherit,
+			$cols: inherit,
+			$rows: inherit,
+			$col-gap: 30px,
+			$row-gap: 30px,
+			$col-start: 1,
+			$col-end: 4);
+	}
+}
+
+@media (max-width: 735px) {
+
+	main {
+		// @include temp(auto);
+		padding: 0px;
+		overflow-x: hidden;
+
+		/*-header-*/
+
+		header {
+			padding: 20px;
+			margin-bottom: 0;
+			// @include temp(auto);
+
+			@include gridLayout(
+				$display: grid,
+				$cols: repeat(6, 1fr),
+				$rows: repeat(4, 1fr),
+				$col-gap: 20px,
+				$row-gap: 20px,
+				$col-start: 1,
+				$col-end: 4);
+
+			#photo {
+				// @include temp(auto);
+				@include gridRow ($start: 1, $end: 3);
+
+				#border{
+					width: 91px;
+					height: 91px;
+					top: 0;
+
+					#outline {
+						width: 91px;
+						height: 91px;
+
+						#avatar {
+							width: 91px;
+							height: 91px;
+						}
+					}
+				}
+			}
+
+			#user {
+				// @include temp(inherit);
+				grid-column-start: 2;
+				grid-column-end: 7;
+				grid-row-start: 1;
+				grid-row-end: 3;
+
+				display: grid;
+				grid-template-columns: 1fr;
+				grid-template-rows: 1fr, 1fr;
+
+				#nombre {
+					// @include temp(auto);
+					grid-column-start: 1;
+					grid-column-end: 3;
+					grid-row-start: 1;
+					grid-row-end: 2;
+
+					margin: 0;
+					margin-top: 20px;
+				}
+				#user-buttons {
+					// @include temp(auto);
+					grid-column-start: 1;
+					grid-column-end:3;
+					grid-row-start: 2;
+					grid-row-end: 3;
+
+					#enviar-mensaje {
+						margin-left: 30px;
+					}
+				}
+			}
+
+			#share-info {
+				display: none;
+				// @include temp(auto);
+			}
+
+			#descripcion {
+				// @include temp(auto);
+				grid-column-start: 1;
+				grid-column-end: 7;
+			}
+		}
+
+		/*-Stories-*/
+
+		#stories {
+			margin: 0;
+			padding: 0;
+			padding: 10px;
+
+			.stories {
+				width: 70px;
+				min-width: 70px;
+				padding: 0;
+
+				.sto-title {
+					@include selectFont('endnote');
+				}
+			}
+		}
+
+		#share-info-mv {
+			display: grid;
+			grid-column-start: 1;
+			grid-column-end: 4;
+			grid-template-columns: repeat(3, 1fr);
+
+			// height: 48px;
+			min-width: 100%;
+			padding: 8px;
+			border-top: solid 1px $medium-grey;
+
+			p {
+				text-align: center;
+				@include selectFont('H6');
+			}
+			p:last-child{
+				@include selectFont('searchField');
+				font-weight: 400;
+			}
+		}
+
+		/*-aside-*/
+
+		form {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			padding-left: 20px;
+			padding-right: 20px;
+
+			label {
+				justify-content: center;
+				margin: 0;
+				span {
+					display: none;
+				}
+				.aside-label-icon {
+					width: 32px;
+					height: 24px !important;
+
+				}
+			}
+			$sections: publicaciones, igtv, etiquetadas;
+
+			@each $section in $sections {
+				#input-#{$section}:checked ~ #label-#{$section} {
+					margin-top: 1px;
+					border-top: none;
+					svg {
+						fill: rgb(0, 149, 246);
+					}
+				}
+			}
+		}
+	}
+}

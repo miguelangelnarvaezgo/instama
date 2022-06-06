@@ -1,0 +1,73 @@
+@use "globals" as *;
+
+/*-----FOOTER-----*/
+
+footer {
+	display: flex;
+	@include flex-just-align(
+		$horizontal: center,
+		$vertical: center);
+
+	width: 100%;
+	min-height: 122px;
+
+
+	#footer-container {
+		@include flex-just-align(
+			$horizontal: flex-start,
+			$vertical: flex-start);
+
+		flex-direction: column;
+		box-sizing: border-box;
+		width: 100%;
+		max-width: 1012px;
+
+		.footer-nav {
+			display: block;
+			flex-direction: row;
+
+			margin-bottom: 3px;
+			height: auto;
+
+			.footer-nav-element {
+				display: inline-block;
+				margin-right: 14px;
+				margin-bottom: 7px;
+				height: 18px;
+
+				a { // no funciona
+					@include selectFont('footnote', $link);
+					cursor: pointer;
+
+					select {
+						display: none;
+					}
+					&:active ~ select {
+						display: inherit;
+					}
+				}
+
+			}
+		}
+	}
+	.DINPA {
+		@include selectFont('footnote', $dark-grey);
+		display: block;
+		font-size: 12px;
+	}
+
+}
+
+@media (max-width: 735px) {
+	footer{
+		#footer-container {
+			max-width: 360px;
+			text-align: center;
+		}
+	}
+	.DINPA {
+		margin: 0 auto;
+	}
+
+
+}

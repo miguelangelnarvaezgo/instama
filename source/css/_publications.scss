@@ -1,0 +1,85 @@
+@use "globals" as *;
+
+main {
+  #content-container {
+
+    .publications {
+      @include flex-just-align(
+        $horizontal: center,
+        $vertical: center);
+
+      background-color: $black;
+      background-size: cover;
+      background-position: center;
+
+      overflow: hidden;
+
+      cursor: pointer;
+
+      a {
+        display: flex;
+        img {
+
+        }
+      }
+
+      .overlay-data-publications {
+        @include flex-just-align(
+          $horizontal: center,
+          $vertical: center);
+        flex-direction: row;
+        opacity: 0;
+        position: absolute;
+
+        .icon-info-1, .icon-info-2{
+          @include flex-just-align(
+            $horizontal: center,
+            $vertical: center);
+          flex-direction: row;
+
+          svg {
+            width: 18px;
+            height: 18px;
+            margin-right: 8px;
+            .icon-1, .icon-2 {
+              .icon-path{
+                  fill: #ffffff;
+              }
+            }
+          }
+          span {
+            @include selectFont('blockquote', #ffffff);
+          }
+        }
+        .icon-info-1{
+          margin-right: 24px;
+        }
+      }
+      &:hover {
+        img{
+          opacity: 0.6;
+        }
+        .overlay-data-publications {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 735px) {
+  main {
+		#content-container {
+			grid-row-gap: 3px;
+			grid-column-gap: 3px;
+      .publications {
+        .overlay-data-publications {
+          flex-direction: column;
+          .likes-info {
+            margin: 0;
+          }
+        }
+      }
+		}
+  }
+}

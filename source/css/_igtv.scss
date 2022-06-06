@@ -1,0 +1,18 @@
+@use "globals" as *;
+@use "publications" as *;
+
+
+
+main {
+  #content-container {
+    .igtv {
+      @extend .publications;
+    }
+  }
+}
+
+@media (max-width: 735px) {
+  #content-container {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}

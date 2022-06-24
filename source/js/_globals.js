@@ -20,11 +20,12 @@ export const resizeElement = (target, img, view = 0, side = 'height') => {
 	}
   let elem = document.getElementsByClassName(target);
 	let imgs = document.getElementsByClassName(img);
+	console.log(elem[0].clientWidth);
+	let w = elem[0].clientWidth + elem[0].clientWidth * view; // se podría recorrer el elemento "elem" y asignar a cada imagen el alto de su propio contenedor, pero como todos son iguales se reduce la carga de trabajo usando el tamaño del primer elemento
+	console.log(w);
 
 	for (let img of imgs) {
-		let w = elem[0].clientWidth + elem[0].clientWidth * view; // se podría recorrer el elemento "elem" y asignar a cada imagen el alto de su propio contenedor, pero como todos son iguales se reduce la carga de trabajo usando el tamaño del primer elemento
-		console.log(w);
-		console.log(elem[0].clientWidth);
+		// let w = elem[0].clientWidth + elem[0].clientWidth * view; // se podría recorrer el elemento "elem" y asignar a cada imagen el alto de su propio contenedor, pero como todos son iguales se reduce la carga de trabajo usando el tamaño del primer elemento
 		img.setAttribute(s, w + "px");
 	}
 }

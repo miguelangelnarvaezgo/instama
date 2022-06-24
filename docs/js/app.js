@@ -105,6 +105,10 @@
 
     var elem = document.getElementsByClassName(target);
     var imgs = document.getElementsByClassName(img);
+    console.log(elem[0].clientWidth);
+    var w = elem[0].clientWidth + elem[0].clientWidth * view; // se podría recorrer el elemento "elem" y asignar a cada imagen el alto de su propio contenedor, pero como todos son iguales se reduce la carga de trabajo usando el tamaño del primer elemento
+
+    console.log(w);
 
     var _iterator = _createForOfIteratorHelper(imgs),
         _step;
@@ -112,11 +116,8 @@
     try {
       for (_iterator.s(); !(_step = _iterator.n()).done;) {
         var _img = _step.value;
-        var w = elem[0].clientWidth + elem[0].clientWidth * view; // se podría recorrer el elemento "elem" y asignar a cada imagen el alto de su propio contenedor, pero como todos son iguales se reduce la carga de trabajo usando el tamaño del primer elemento
 
-        console.log(w);
-        console.log(elem[0].clientWidth);
-
+        // let w = elem[0].clientWidth + elem[0].clientWidth * view; // se podría recorrer el elemento "elem" y asignar a cada imagen el alto de su propio contenedor, pero como todos son iguales se reduce la carga de trabajo usando el tamaño del primer elemento
         _img.setAttribute(s, w + "px");
       }
     } catch (err) {
@@ -934,17 +935,14 @@
   etiquetadas.addEventListener('click', function (event) {
     cleanContainer('content-container');
     console.log('se ha hecho click en Etiquetadas');
-  }); // pub.insertPublication(data);
-  // Se detecta el evento DOMContentLoaded para sber cuando el documento esta cargado y listo. Función de iniciación del programa.
+  }); // Se detecta el evento DOMContentLoaded para sber cuando el documento esta cargado y listo. Función de iniciación del programa.
 
   document.addEventListener("DOMContentLoaded", function (event) {
     insertElement(5, 'nav-icon', 'beforeend');
     insertPublication(data);
-    cleanContainer('content-container');
-    insertPublication(data);
     insertStorie(data);
     userData(data);
-  }); // pub.insertPublication(data);
+  });
 
 })();
 //# sourceMappingURL=app.js.map

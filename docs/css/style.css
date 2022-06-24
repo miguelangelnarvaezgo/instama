@@ -680,6 +680,7 @@ main #content-container {
 }
 .pub-img {
   width: 100%;
+  height: auto;
 }
 
 main #content-container .publications, main #content-container .igtv {

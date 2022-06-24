@@ -104,8 +104,8 @@
     }
 
     var elem = document.getElementsByClassName(target);
-    var imgs = document.getElementsByClassName(img);
     console.log(elem[0].clientWidth);
+    var imgs = document.getElementsByClassName(img);
     var w = elem[0].clientWidth + elem[0].clientWidth * view; // se podría recorrer el elemento "elem" y asignar a cada imagen el alto de su propio contenedor, pero como todos son iguales se reduce la carga de trabajo usando el tamaño del primer elemento
 
     console.log(w);
@@ -270,7 +270,7 @@
       _iterator.f();
     }
 
-    window.setTimeout(resizeElement('publications', 'pub-img'), 500); // g.resizeElement('publications', 'pub-img');
+    resizeElement('publications', 'pub-img');
   };
   var insertIgtv = function insertIgtv(data) {
     var igtvs = data.igtv;
@@ -943,13 +943,6 @@
     insertStorie(data);
     userData(data);
   });
-
-  window.onload = function () {
-    insertElement(5, 'nav-icon', 'beforeend');
-    insertPublication(data);
-    insertStorie(data);
-    userData(data);
-  };
 
 })();
 //# sourceMappingURL=app.js.map

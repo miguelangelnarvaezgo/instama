@@ -9,12 +9,6 @@
   ],
   "creatorBuild" : "34365",
   "files" : {
-    "\/docs" : {
-      "ft" : 65536,
-      "oA" : 1,
-      "oAP" : "\/docs\/docs",
-      "oF" : 0
-    },
     "\/LICENSE" : {
       "cB" : 0,
       "ft" : 8192,
@@ -964,7 +958,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "brackets-azure",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 677778294.33526099
+    "lastBuiltDate" : 677796527.24247503
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,

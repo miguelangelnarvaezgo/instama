@@ -74,8 +74,7 @@ export const insertPublication = (data) => {
 		document.getElementById("content-container").insertAdjacentHTML('beforeend' ,post);
 
 	}
-	window.setTimeout(g.resizeElement('publications', 'pub-img'), 500);
-	// g.resizeElement('publications', 'pub-img');
+	g.resizeElement('publications', 'pub-img');
 }
 
 

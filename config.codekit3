@@ -53,8 +53,8 @@
       "oA" : 1,
       "oAP" : "\/docs\/css\/_footer.css",
       "oF" : 0,
-      "oS" : 3,
-      "pg" : 0,
+      "oS" : 1,
+      "pg" : 1,
       "sct" : 0
     },
     "\/source\/css\/_globals.scss" : {
@@ -68,8 +68,8 @@
       "oA" : 1,
       "oAP" : "\/docs\/css\/_globals.css",
       "oF" : 0,
-      "oS" : 3,
-      "pg" : 0,
+      "oS" : 1,
+      "pg" : 1,
       "sct" : 0
     },
     "\/source\/css\/_igtv.scss" : {
@@ -83,8 +83,8 @@
       "oA" : 1,
       "oAP" : "\/docs\/css\/_igtv.css",
       "oF" : 0,
-      "oS" : 3,
-      "pg" : 0,
+      "oS" : 1,
+      "pg" : 1,
       "sct" : 0
     },
     "\/source\/css\/_main.scss" : {
@@ -98,8 +98,8 @@
       "oA" : 1,
       "oAP" : "\/docs\/css\/_main.css",
       "oF" : 0,
-      "oS" : 3,
-      "pg" : 0,
+      "oS" : 1,
+      "pg" : 1,
       "sct" : 0
     },
     "\/source\/css\/_nav.scss" : {
@@ -113,8 +113,8 @@
       "oA" : 1,
       "oAP" : "\/docs\/css\/_nav.css",
       "oF" : 0,
-      "oS" : 3,
-      "pg" : 0,
+      "oS" : 1,
+      "pg" : 1,
       "sct" : 0
     },
     "\/source\/css\/_publications.scss" : {
@@ -128,8 +128,8 @@
       "oA" : 1,
       "oAP" : "\/docs\/css\/_publications.css",
       "oF" : 0,
-      "oS" : 3,
-      "pg" : 0,
+      "oS" : 1,
+      "pg" : 1,
       "sct" : 0
     },
     "\/source\/css\/style.scss" : {
@@ -140,11 +140,11 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 1,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/docs\/css\/style.css",
       "oF" : 0,
-      "oS" : 3,
-      "pg" : 0,
+      "oS" : 1,
+      "pg" : 1,
       "sct" : 0
     },
     "\/source\/data\/54550381.png" : {
@@ -154,7 +154,7 @@
       "oAP" : "\/docs\/data\/54550381.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -168,7 +168,7 @@
       "oAP" : "\/docs\/data\/80508588_167271444560115_1214470618736651925_n.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -181,7 +181,7 @@
       "oAP" : "\/docs\/data\/81830773_120375342559469_2990012302826143744_n.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -194,7 +194,7 @@
       "oAP" : "\/docs\/data\/90089645_2570311583216887_3121298256085123072_n.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -207,7 +207,7 @@
       "oAP" : "\/docs\/data\/aldi_dwl.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -220,7 +220,7 @@
       "oAP" : "\/docs\/data\/aldi.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -231,7 +231,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/data\/almirall_2.gif",
       "oF" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "rq" : 75
     },
@@ -243,7 +243,7 @@
       "oAP" : "\/docs\/data\/almirall_dwl.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -256,7 +256,7 @@
       "oAP" : "\/docs\/data\/almirall.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -268,7 +268,7 @@
       "oAP" : "\/docs\/data\/anima.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -282,7 +282,7 @@
       "oAP" : "\/docs\/data\/auren_dwl.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -295,7 +295,7 @@
       "oAP" : "\/docs\/data\/auren.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -306,7 +306,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/data\/bioiberica.gif",
       "oF" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "rq" : 75
     },
@@ -318,7 +318,7 @@
       "oAP" : "\/docs\/data\/bony.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -329,7 +329,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/data\/COAC.gif",
       "oF" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "rq" : 75
     },
@@ -337,7 +337,7 @@
       "bF" : 4,
       "ft" : 64,
       "ma" : 1,
-      "mi" : 1,
+      "mi" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/data\/data.js",
       "oF" : 0,
@@ -350,7 +350,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/data\/ddi.gif",
       "oF" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "rq" : 75
     },
@@ -362,7 +362,7 @@
       "oAP" : "\/docs\/data\/eucerin_dwl.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -375,7 +375,7 @@
       "oAP" : "\/docs\/data\/eucerin.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -388,7 +388,7 @@
       "oAP" : "\/docs\/data\/gallo_dwl.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -401,7 +401,7 @@
       "oAP" : "\/docs\/data\/gallo.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -414,7 +414,7 @@
       "oAP" : "\/docs\/data\/gradefajol.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -426,7 +426,7 @@
       "oAP" : "\/docs\/data\/graph.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -440,7 +440,7 @@
       "oAP" : "\/docs\/data\/grebulosa.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -453,7 +453,7 @@
       "oAP" : "\/docs\/data\/guitarra.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -465,7 +465,7 @@
       "oAP" : "\/docs\/data\/igtv-test.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -479,7 +479,7 @@
       "oAP" : "\/docs\/data\/IMG_1423.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -492,7 +492,7 @@
       "oAP" : "\/docs\/data\/IMG_1438.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -505,7 +505,7 @@
       "oAP" : "\/docs\/data\/IMG_3223.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -518,7 +518,7 @@
       "oAP" : "\/docs\/data\/IMG_5374.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -530,7 +530,7 @@
       "oAP" : "\/docs\/data\/maq.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -544,7 +544,7 @@
       "oAP" : "\/docs\/data\/Mesa de trabajo1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -557,7 +557,7 @@
       "oAP" : "\/docs\/data\/moto.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -569,7 +569,7 @@
       "oAP" : "\/docs\/data\/multim.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -583,7 +583,7 @@
       "oAP" : "\/docs\/data\/nespresso_dwl.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -595,7 +595,7 @@
       "oAP" : "\/docs\/data\/nespresso.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -609,7 +609,7 @@
       "oAP" : "\/docs\/data\/paack_dwl.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -622,7 +622,7 @@
       "oAP" : "\/docs\/data\/paack.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -635,7 +635,7 @@
       "oAP" : "\/docs\/data\/tosa.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -647,7 +647,7 @@
       "oAP" : "\/docs\/data\/UI.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -661,7 +661,7 @@
       "oAP" : "\/docs\/data\/ulldeter.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -673,7 +673,7 @@
       "oAP" : "\/docs\/data\/web.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -756,7 +756,7 @@
       "oAP" : "\/docs\/img\/logo.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -809,7 +809,7 @@
       "oAP" : "\/docs\/img\/plant.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -883,7 +883,7 @@
       "oAP" : "\/docs\/img\/user.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -900,7 +900,7 @@
       "bF" : 4,
       "ft" : 64,
       "ma" : 1,
-      "mi" : 1,
+      "mi" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/js\/_globals.js",
       "oF" : 0,
@@ -911,7 +911,7 @@
       "bF" : 4,
       "ft" : 64,
       "ma" : 1,
-      "mi" : 1,
+      "mi" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/js\/_publications.js",
       "oF" : 0,
@@ -922,7 +922,7 @@
       "bF" : 4,
       "ft" : 64,
       "ma" : 1,
-      "mi" : 1,
+      "mi" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/js\/_stories.js",
       "oF" : 0,
@@ -933,7 +933,7 @@
       "bF" : 4,
       "ft" : 64,
       "ma" : 1,
-      "mi" : 1,
+      "mi" : 0,
       "oA" : 1,
       "oAP" : "\/docs\/js\/_user.js",
       "oF" : 0,
@@ -944,8 +944,8 @@
       "bF" : 4,
       "ft" : 64,
       "ma" : 1,
-      "mi" : 1,
-      "oA" : 1,
+      "mi" : 0,
+      "oA" : 0,
       "oAP" : "\/docs\/js\/app.js",
       "oF" : 0,
       "sC" : 3,
@@ -964,7 +964,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "brackets-azure",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 676216805.64911401
+    "lastBuiltDate" : 677775185.01857197
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
@@ -2293,7 +2293,7 @@
       "autoOutputPathReplace2" : "",
       "autoOutputPathStyle" : 0,
       "bundleFormat" : 4,
-      "minifierStyle" : 1,
+      "minifierStyle" : 0,
       "sourceMapStyle" : 1,
       "syntaxCheckerStyle" : 3,
       "transpilerStyle" : 1
@@ -2404,8 +2404,8 @@
       "cssoStyle" : 0,
       "decimalPrecision" : 10,
       "emitCharset" : 1,
-      "outputStyle" : 3,
-      "purgeCSSStyle" : 0,
+      "outputStyle" : 1,
+      "purgeCSSStyle" : 1,
       "shouldRunAutoprefixer" : 1,
       "shouldRunBless" : 0,
       "sourceMapStyle" : 1

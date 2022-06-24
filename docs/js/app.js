@@ -113,6 +113,10 @@
       for (_iterator.s(); !(_step = _iterator.n()).done;) {
         var _img = _step.value;
         var w = elem[0].clientWidth + elem[0].clientWidth * view; // se podría recorrer el elemento "elem" y asignar a cada imagen el alto de su propio contenedor, pero como todos son iguales se reduce la carga de trabajo usando el tamaño del primer elemento
+        // let w = elem[0].clientWidth; // se podría recorrer el elemento "elem" y asignar a cada imagen el alto de su propio contenedor, pero como todos son iguales se reduce la carga de trabajo usando el tamaño del primer elemento
+
+        console.log(w);
+        console.log(elem[0].clientWidth);
 
         _img.setAttribute(s, w + "px");
       }
@@ -940,6 +944,7 @@
     insertStorie(data);
     userData(data);
   });
+  insertPublication(data);
 
 })();
 //# sourceMappingURL=app.js.map

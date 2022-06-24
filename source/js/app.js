@@ -29,8 +29,7 @@ etiquetadas.addEventListener('click', function(event) {
 	g.cleanContainer('content-container');
 	console.log('se ha hecho click en Etiquetadas');
 });
-
-pub.insertPublication(data);
+	pub.insertPublication(data);
 // Se detecta el evento DOMContentLoaded para sber cuando el documento esta cargado y listo. Función de iniciación del programa.
 document.addEventListener("DOMContentLoaded", function(event) {
 	g.insertElement(5, 'nav-icon', 'beforeend');
@@ -38,3 +37,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	story.insertStorie(data);
 	user.userData(data);
 });
+
+	pub.insertPublication(data);

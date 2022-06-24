@@ -36,3 +36,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	story.insertStorie(data);
 	user.userData(data);
 });
+
+window.onload = function () {
+	g.insertElement(5, 'nav-icon', 'beforeend');
+	pub.insertPublication(data);
+	story.insertStorie(data);
+	user.userData(data);
+}

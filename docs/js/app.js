@@ -270,7 +270,7 @@
       _iterator.f();
     }
 
-    resizeElement('publications', 'pub-img');
+    window.setTimeout(resizeElement('publications', 'pub-img'), 500); // g.resizeElement('publications', 'pub-img');
   };
   var insertIgtv = function insertIgtv(data) {
     var igtvs = data.igtv;
@@ -943,6 +943,13 @@
     insertStorie(data);
     userData(data);
   });
+
+  window.onload = function () {
+    insertElement(5, 'nav-icon', 'beforeend');
+    insertPublication(data);
+    insertStorie(data);
+    userData(data);
+  };
 
 })();
 //# sourceMappingURL=app.js.map

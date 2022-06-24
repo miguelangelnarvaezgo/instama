@@ -30,11 +30,11 @@ etiquetadas.addEventListener('click', function(event) {
 	console.log('se ha hecho click en Etiquetadas');
 });
 
-
+pub.insertPublication(data);
 // Se detecta el evento DOMContentLoaded para sber cuando el documento esta cargado y listo. Función de iniciación del programa.
 document.addEventListener("DOMContentLoaded", function(event) {
 	g.insertElement(5, 'nav-icon', 'beforeend');
-	pub.insertPublication(data);
+	// pub.insertPublication(data);
 	story.insertStorie(data);
 	user.userData(data);
 });

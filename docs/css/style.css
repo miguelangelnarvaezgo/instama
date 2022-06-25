@@ -171,29 +171,29 @@ nav #nav-bar #container-menu #nav-icon .nav-icon {
   margin-left: 22px;
 }
 nav #nav-bar #container-menu #nav-icon #nav-icon-0 {
-  background-image: url(/img/home.svg);
+  background-image: url(../img/home.svg);
   background-size: contain;
   background-repeat: no-repeat;
 }
 nav #nav-bar #container-menu #nav-icon #nav-icon-1 {
-  background-image: url(/img/mail.svg);
+  background-image: url(../img/mail.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position-y: 2px;
 }
 nav #nav-bar #container-menu #nav-icon #nav-icon-2 {
-  background-image: url(/img/safari.svg);
+  background-image: url(../img/safari.svg);
   background-size: contain;
   background-repeat: no-repeat;
 }
 nav #nav-bar #container-menu #nav-icon #nav-icon-3 {
-  background-image: url(/img/like.svg);
+  background-image: url(../img/like.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position-y: 2px;
 }
 nav #nav-bar #container-menu #nav-icon #nav-icon-4 {
-  background-image: url(/img/user.jpg);
+  background-image: url(../img/user.jpg);
   background-size: contain;
   background-repeat: no-repeat;
 }

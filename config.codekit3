@@ -306,7 +306,7 @@
       "oA" : 0,
       "oAP" : "\/docs\/data\/bioiberica.gif",
       "oF" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "rq" : 75
     },
@@ -460,12 +460,12 @@
     },
     "\/source\/data\/igtv-test.png" : {
       "ft" : 32768,
-      "iS" : 77272,
+      "iS" : 127720,
       "oA" : 0,
       "oAP" : "\/docs\/data\/.igtv-test~imageoptim.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -551,7 +551,7 @@
     },
     "\/source\/data\/moto.jpg" : {
       "ft" : 16384,
-      "iS" : 4796829,
+      "iS" : 236257,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/docs\/data\/moto.jpg",
@@ -964,7 +964,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "brackets-azure",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 677796527.24247503
+    "lastBuiltDate" : 677845855.25923395
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
